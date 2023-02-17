@@ -1,0 +1,17 @@
+{
+  "v-if": {
+    "prefix": "vif",
+    "body": ["v-if=\"${1}\" "],
+    "description": "v-if"
+  },
+  "v-else": {
+    "prefix": "vel",
+    "body": ["v-else "],
+    "description": "v-else"
+  },
+  "v-else-if": {
+    "prefix": "velif",
+    "body": ["v-else-if=\"${1}\" "],
+    "description": "v-else-if"
+  }
+}
