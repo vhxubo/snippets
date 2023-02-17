@@ -5,6 +5,6 @@ A custom snippet collection for myself.
 ## Features
 
 - Less snippets
-- Useful snippets
+- More concise
 
 **Enjoy!**
