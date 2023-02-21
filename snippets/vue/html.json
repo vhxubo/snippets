@@ -37,7 +37,7 @@
   "v-for (index,item)": {
     "prefix": "vfi",
     "body": [
-      "v-for=\"(${4:index}, ${2:item}) in ${1:items}\" :key=\"${3:index}\" "
+      "v-for=\"(${2:item}, ${4:index}) in ${1:items}\" :key=\"${3:index}\" "
     ],
     "description": "v-for"
   },
