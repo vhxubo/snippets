@@ -22,12 +22,20 @@
       },
       {
         "language": "vue",
-        "path": "./snippets/vue/vue.json"
+        "path": "./snippets/vue/html.json"
       },
       {
         "language": "javascript",
         "path": "./snippets/vue/javascript.json"
-      }
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue/vue.json"
+      },
     ]
   }
 }
