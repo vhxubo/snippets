@@ -308,5 +308,43 @@
       "</style>"
     ],
     "description": "Base for Vue File with Class based Typescript format"
+  },
+  "Element UI Dialog Vue3 Base": {
+    "prefix": "eldv",
+    "body": [
+      "<template>",
+      "  <div>",
+      "    <el-dialog class=\"${1:dialog}\" title=\"${2:新增}\" :visible.sync=\"dialogVisible\" :before-close=\"toggleVisible\" append-to-body></el-dialog>",
+      "    <el-button size=\"small\" @click=\"toggleVisible\">${2:新增}</el-button>",
+      "  </div>",
+      "</template>",
+      "",
+      "<script>",
+      "import { reactive, toRefs } from 'vue'",
+      "",
+      "export default {",
+      "  name: '${1:dialog}',",
+      "  props: {},",
+      "  setup() {",
+      "    const state = reactive({",
+      "      dialogVisible: false,",
+      "    })",
+      "",
+      "    function toggleVisible() {",
+      "      state.dialogVisible = !state.dialogVisible",
+      "    }",
+      "",
+      "    return {",
+      "      ...toRefs(state),",
+      "      toggleVisible,",
+      "    }",
+      "  },",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "el-dialog"
   }
 }
